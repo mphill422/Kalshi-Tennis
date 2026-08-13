@@ -1,0 +1,28 @@
+# source (gh=greenhouse, lv=lever), board token, display name
+# Diagnostics / molecular / precision medicine
+gh,natera,Natera
+gh,guardanthealth,Guardant Health
+gh,tempus,Tempus AI
+gh,carisls,Caris Life Sciences
+gh,neogenomics,NeoGenomics
+gh,myriadgenetics,Myriad Genetics
+gh,exactsciences,Exact Sciences
+gh,castlebiosciences,Castle Biosciences
+gh,sophiagenetics,SOPHiA GENETICS
+gh,billiontoone,BillionToOne
+gh,freenome,Freenome
+gh,grail,GRAIL
+# Health-tech / clinical solutions
+gh,datavant,Datavant
+gh,komodohealth,Komodo Health
+gh,includedhealth,Included Health
+gh,transcarent,Transcarent
+gh,aledade,Aledade
+gh,medable,Medable
+gh,color,Color Health
+gh,everlyhealth,Everly Health
+lv,ro,Ro
+gh,hims,Hims & Hers
+gh,zocdoc,Zocdoc
+gh,cedar,Cedar
+gh,clarifyhealth,Clarify Health
