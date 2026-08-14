@@ -1,31 +1,22 @@
 #!/usr/bin/env python3
 """
 Medical Sales Job Scanner - Mike Hill
-Remote INDIVIDUAL-CONTRIBUTOR sales roles only:
-account manager, account executive (incl. senior),
-pharmaceutical sales rep/executive (incl. senior).
-No management, no strategic titles, no BDR/SDR, no implementation roles.
-Writes JOBS.md daily via GitHub Action.
+Pulls open roles from Greenhouse & Lever public boards for a curated
+company list, filters to remote sales/BD roles, writes JOBS.md.
+Runs daily via GitHub Action. No database - the repo file IS the report.
 """
-import json, urllib.request, urllib.error
+import json, re, urllib.request, urllib.error
 from datetime import date
 
 # ---- filters -------------------------------------------------------------
 TITLE_KEYWORDS = [
-    "account manager",
-    "account executive",
-    "pharmaceutical sales",
+    "sales", "business development", "account executive", "account manager",
+    "territory", "clinical specialist", "market development", "commercial",
+    "strategic accounts", "key account", "client executive", "growth",
 ]
 TITLE_EXCLUDE = [
-    "director", "vice president", "vp", "avp", "gvp", "chief", "head of",
-    "sales manager", "training manager", "regional manager", "area manager",
-    "national sales", "strategic", "sr manager", "senior manager",
-    "manager of", "president", "principal", "supervisor",
-    "business development representative", "bdr", "sdr",
-    "sales development", "implementation",
-    "engineer", "developer", "scientist", "intern", "software", "designer",
-    "recruiter", "counsel", "accountant", "nurse", "administrator",
-    "analyst",
+    "engineer", "developer", "scientist", "intern", "director of engineering",
+    "software", "designer", "recruiter", "counsel", "accountant", "nurse",
 ]
 REMOTE_HINTS = ["remote", "field", "united states", "us -", "- us", "usa",
                 "southeast", "florida", "orlando", "tampa", "east", "national"]
@@ -71,12 +62,12 @@ def main():
             for title, loc, url in fetch(token):
                 if want(title, loc):
                     hits.append((name, title, loc, url))
-        except Exception:
+        except (urllib.error.HTTPError, urllib.error.URLError, Exception):
             dead.append(f"{name} ({source}:{token})")
 
     hits.sort()
     with open("JOBS.md", "w") as f:
-        f.write(f"# Remote Medical Sales Roles (IC) - {date.today()}\n\n")
+        f.write(f"# Remote Medical Sales Openings - {date.today()}\n\n")
         f.write(f"**{len(hits)} matching roles** across {len(companies)-len(dead)} live boards\n\n")
         last = None
         for name, title, loc, url in hits:
