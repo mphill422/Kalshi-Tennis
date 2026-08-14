@@ -1,22 +1,38 @@
 #!/usr/bin/env python3
 """
 Medical Sales Job Scanner - Mike Hill
-Pulls open roles from Greenhouse & Lever public boards for a curated
-company list, filters to remote sales/BD roles, writes JOBS.md.
-Runs daily via GitHub Action. No database - the repo file IS the report.
+Remote INDIVIDUAL-CONTRIBUTOR roles across two tracks:
+  A) Sales: rep / AE / account manager / inside sales
+  B) Relationship: customer success / implementation / solutions
+     consultant / provider relations
+No management, no "strategic" titles, no BDR/SDR cold-call roles.
+Writes JOBS.md daily via GitHub Action.
 """
-import json, re, urllib.request, urllib.error
+import json, urllib.request, urllib.error
 from datetime import date
 
 # ---- filters -------------------------------------------------------------
 TITLE_KEYWORDS = [
-    "sales", "business development", "account executive", "account manager",
-    "territory", "clinical specialist", "market development", "commercial",
-    "strategic accounts", "key account", "client executive", "growth",
+    # Track A - IC sales
+    "sales representative", "sales rep", "account executive",
+    "account manager", "territory manager", "sales specialist",
+    "clinical specialist", "sales consultant", "inside sales",
+    # Track B - relationship / retention / no-cold-call
+    "customer success", "client success", "client manager",
+    "implementation", "onboarding manager", "solutions consultant",
+    "solution consultant", "clinical solutions", "provider relations",
+    "provider engagement", "client partner", "relationship manager",
 ]
 TITLE_EXCLUDE = [
-    "engineer", "developer", "scientist", "intern", "director of engineering",
-    "software", "designer", "recruiter", "counsel", "accountant", "nurse",
+    "director", "vice president", "vp", "avp", "gvp", "chief", "head of",
+    "sales manager", "training manager", "regional manager", "area manager",
+    "national sales", "strategic", "sr manager", "senior manager",
+    "manager of", "president", "principal", "supervisor",
+    "business development representative", "bdr", "sdr",
+    "sales development",
+    "engineer", "developer", "scientist", "intern", "software", "designer",
+    "recruiter", "counsel", "accountant", "nurse", "administrator",
+    "analyst",
 ]
 REMOTE_HINTS = ["remote", "field", "united states", "us -", "- us", "usa",
                 "southeast", "florida", "orlando", "tampa", "east", "national"]
@@ -62,12 +78,12 @@ def main():
             for title, loc, url in fetch(token):
                 if want(title, loc):
                     hits.append((name, title, loc, url))
-        except (urllib.error.HTTPError, urllib.error.URLError, Exception):
+        except Exception:
             dead.append(f"{name} ({source}:{token})")
 
     hits.sort()
     with open("JOBS.md", "w") as f:
-        f.write(f"# Remote Medical Sales Openings - {date.today()}\n\n")
+        f.write(f"# Remote Medical Sales & Client Roles (IC) - {date.today()}\n\n")
         f.write(f"**{len(hits)} matching roles** across {len(companies)-len(dead)} live boards\n\n")
         last = None
         for name, title, loc, url in hits:
