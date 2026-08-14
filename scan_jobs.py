@@ -1,25 +1,36 @@
 #!/usr/bin/env python3
 """
 Medical Sales Job Scanner - Mike Hill
-Pulls open roles from Greenhouse & Lever public boards for a curated
-company list, filters to remote sales/BD roles, writes JOBS.md.
-Runs daily via GitHub Action. No database - the repo file IS the report.
+Individual-contributor sales roles only:
+account manager, account executive (incl. senior),
+pharmaceutical sales rep/executive (incl. senior).
+Remote, hybrid, field-based, and Florida-territory positions.
+No management, no strategic titles, no BDR/SDR, no implementation roles.
+Writes JOBS.md daily via GitHub Action.
 """
-import json, re, urllib.request, urllib.error
+import json, urllib.request, urllib.error
 from datetime import date
 
 # ---- filters -------------------------------------------------------------
 TITLE_KEYWORDS = [
-    "sales", "business development", "account executive", "account manager",
-    "territory", "clinical specialist", "market development", "commercial",
-    "strategic accounts", "key account", "client executive", "growth",
+    "account manager",
+    "account executive",
+    "pharmaceutical sales",
 ]
 TITLE_EXCLUDE = [
-    "engineer", "developer", "scientist", "intern", "director of engineering",
-    "software", "designer", "recruiter", "counsel", "accountant", "nurse",
+    "director", "vice president", "vp", "avp", "gvp", "chief", "head of",
+    "sales manager", "training manager", "regional manager", "area manager",
+    "national sales", "strategic", "sr manager", "senior manager",
+    "manager of", "president", "principal", "supervisor",
+    "business development representative", "bdr", "sdr",
+    "sales development", "implementation",
+    "engineer", "developer", "scientist", "intern", "software", "designer",
+    "recruiter", "counsel", "accountant", "nurse", "administrator",
+    "analyst",
 ]
-REMOTE_HINTS = ["remote", "field", "united states", "us -", "- us", "usa",
-                "southeast", "florida", "orlando", "tampa", "east", "national"]
+REMOTE_HINTS = ["remote", "hybrid", "field", "united states", "us -", "- us",
+                "usa", "southeast", "florida", "orlando", "tampa", ", fl",
+                "east", "national"]
 
 def want(title, location):
     t, loc = title.lower(), (location or "").lower()
@@ -62,19 +73,19 @@ def main():
             for title, loc, url in fetch(token):
                 if want(title, loc):
                     hits.append((name, title, loc, url))
-        except (urllib.error.HTTPError, urllib.error.URLError, Exception):
+        except Exception:
             dead.append(f"{name} ({source}:{token})")
 
     hits.sort()
     with open("JOBS.md", "w") as f:
-        f.write(f"# Remote Medical Sales Openings - {date.today()}\n\n")
+        f.write(f"# Medical Sales Roles (IC) - Remote / Hybrid / Field - {date.today()}\n\n")
         f.write(f"**{len(hits)} matching roles** across {len(companies)-len(dead)} live boards\n\n")
         last = None
         for name, title, loc, url in hits:
             if name != last:
                 f.write(f"\n## {name}\n")
                 last = name
-            f.write(f"- [{title}]({url}) — {loc}\n")
+            f.write(f"- [{title}]({url}) \u2014 {loc}\n")
         if dead:
             f.write(f"\n---\n*Boards not resolving (prune or fix token in companies.txt):* {', '.join(dead)}\n")
     print(f"{len(hits)} roles written to JOBS.md; {len(dead)} dead boards")
