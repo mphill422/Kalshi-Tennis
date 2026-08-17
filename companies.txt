@@ -33,3 +33,15 @@ gh,virtahealth,Virta Health
 lv,innovaccer,Innovaccer
 gh,h1,H1
 gh,garnerhealth,Garner Health
+gh,carrothealth,Carrot Fertility
+gh,mavenclinic,Maven Clinic
+gh,sprinterhealth,Sprinter Health
+gh,parsleyhealth,Parsley Health
+gh,thirtymadison,Thirty Madison
+gh,brightlinehealth,Brightline
+gh,podiumeducation,Wheel
+lv,axlehealth,Axle Health
+gh,sondermind,SonderMind
+gh,growtherapy,Grow Therapy
+gh,talkiatry,Talkiatry
+gh,solacehealth,Solace
