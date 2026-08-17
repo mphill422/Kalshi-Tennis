@@ -1,6 +1,6 @@
-# Medical Sales Roles (IC) - Remote / Hybrid / Field - 2026-08-16
+# Medical Sales Roles (IC) - Remote / Hybrid / Field - 2026-08-17
 
-**28 matching roles** across 14 live boards
+**28 matching roles** across 16 live boards
 
 
 ## BillionToOne
@@ -42,4 +42,4 @@
 - [Senior Account Executive, Enterprise Health Systems](https://job-boards.greenhouse.io/zocdoc/jobs/8051471) — USA Remote
 
 ---
-*Boards not resolving (prune or fix token in companies.txt):* Cedar (gh:cedar), Tempus AI (gh:tempuslabs), GRAIL (gh:graillabs), Datavant (lv:datavant), Medable (lv:medable), Color Health (lv:color), Everly Health (gh:everlywell), Hims & Hers (gh:himshers), Delfi Diagnostics (gh:delfidiagnostics), Personalis (gh:personalis), Karius (gh:kariusdx), Hinge Health (gh:hingehealth), Virta Health (gh:virtahealth), Innovaccer (lv:innovaccer), H1 (gh:h1)
+*Boards not resolving (prune or fix token in companies.txt):* Cedar (gh:cedar), Tempus AI (gh:tempuslabs), GRAIL (gh:graillabs), Datavant (lv:datavant), Medable (lv:medable), Color Health (lv:color), Everly Health (gh:everlywell), Hims & Hers (gh:himshers), Delfi Diagnostics (gh:delfidiagnostics), Personalis (gh:personalis), Karius (gh:kariusdx), Hinge Health (gh:hingehealth), Virta Health (gh:virtahealth), Innovaccer (lv:innovaccer), H1 (gh:h1), Carrot Fertility (gh:carrothealth), Sprinter Health (gh:sprinterhealth), Thirty Madison (gh:thirtymadison), Brightline (gh:brightlinehealth), Wheel (gh:podiumeducation), Axle Health (lv:axlehealth), SonderMind (gh:sondermind), Grow Therapy (gh:growtherapy), Talkiatry (gh:talkiatry), Solace (gh:solacehealth)
