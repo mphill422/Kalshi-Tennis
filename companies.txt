@@ -1,47 +1,42 @@
 # NEVER ADD: Guardant Health, Syneos Health
 # source (gh=greenhouse, lv=lever), board token, display name
-# Confirmed live
+# --- Confirmed live boards ---
+gh,adaptivebiotechnologies,Adaptive Biotechnologies
 gh,billiontoone,BillionToOne
 gh,freenome,Freenome
+gh,garnerhealth,Garner Health
+gh,genedx,GeneDx
+lv,includedhealth,Included Health
 gh,komodohealth,Komodo Health
 gh,natera,Natera
-gh,zocdoc,Zocdoc
-gh,cedar,Cedar
-# Retry with alternate tokens
-gh,tempuslabs,Tempus AI
-gh,graillabs,GRAIL
-lv,datavant,Datavant
-lv,includedhealth,Included Health
-lv,transcarent,Transcarent
-lv,aledade,Aledade
-lv,medable,Medable
-lv,color,Color Health
-gh,everlywell,Everly Health
-gh,himshers,Hims & Hers
-lv,clarifyhealth,Clarify Health
-# New additions - diagnostics & precision medicine
-gh,genedx,GeneDx
-gh,adaptivebiotechnologies,Adaptive Biotechnologies
-gh,delfidiagnostics,Delfi Diagnostics
-gh,personalis,Personalis
-gh,kariusdx,Karius
-gh,veracyte,Veracyte
-# New additions - health-tech with field/enterprise sales
-gh,hingehealth,Hinge Health
 gh,omadahealth,Omada Health
-gh,virtahealth,Virta Health
-lv,innovaccer,Innovaccer
-gh,h1,H1
-gh,garnerhealth,Garner Health
-gh,carrothealth,Carrot Fertility
+lv,aledade,Aledade
+lv,transcarent,Transcarent
+lv,clarifyhealth,Clarify Health
+gh,veracyte,Veracyte
+gh,zocdoc,Zocdoc
+# --- Health-tech expansion (80-140K tier) ---
+gh,carrotfertility,Carrot Fertility
 gh,mavenclinic,Maven Clinic
 gh,sprinterhealth,Sprinter Health
 gh,parsleyhealth,Parsley Health
 gh,thirtymadison,Thirty Madison
-gh,brightlinehealth,Brightline
-gh,podiumeducation,Wheel
-lv,axlehealth,Axle Health
 gh,sondermind,SonderMind
 gh,growtherapy,Grow Therapy
 gh,talkiatry,Talkiatry
-gh,solacehealth,Solace
+gh,solace,Solace
+gh,wheel,Wheel
+lv,axlehealth,Axle Health
+gh,brightline,Brightline
+# --- Healthcare SaaS / RCM / provider tools ---
+gh,zelis,Zelis
+gh,cohere-health,Cohere Health
+gh,turquoisehealth,Turquoise Health
+lv,cedar-cares,Cedar
+gh,akasa,AKASA
+gh,thoughtfulai,Thoughtful AI
+gh,elationhealth,Elation Health
+gh,tebra,Tebra
+lv,weaveworks,Weave
+gh,healthie,Healthie
+gh,smarterdx,SmarterDx
