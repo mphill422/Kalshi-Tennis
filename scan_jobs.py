@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-Medical Sales Job Scanner - Mike Hill
-Individual-contributor sales roles only:
-account manager, account executive (incl. senior),
-pharmaceutical sales rep/executive (incl. senior).
-Remote, hybrid, field-based, and Florida-territory positions.
+Medical Sales & Client Roles Scanner - Mike Hill
+Two tracks, IC only:
+  A) Sales: account manager, account executive (incl. senior),
+     pharmaceutical sales rep/executive, inside sales
+  B) Client/relationship: customer success, client success,
+     solutions consultant, provider relations, onboarding manager
 No management, no strategic titles, no BDR/SDR, no implementation roles.
+Remote, hybrid, field-based, and Florida-territory positions.
 Writes JOBS.md daily via GitHub Action.
 """
 import json, urllib.request, urllib.error
@@ -13,15 +15,32 @@ from datetime import date
 
 # ---- filters -------------------------------------------------------------
 TITLE_KEYWORDS = [
+    # Track A - IC sales
     "account manager",
     "account executive",
     "pharmaceutical sales",
+    "inside sales",
+    "sales representative",
+    "sales specialist",
+    "clinical specialist",
+    # Track B - client / relationship (no cold calling)
+    "customer success",
+    "client success",
+    "client manager",
+    "client partner",
+    "relationship manager",
+    "solutions consultant",
+    "solution consultant",
+    "clinical solutions",
+    "provider relations",
+    "provider engagement",
+    "onboarding manager",
 ]
 TITLE_EXCLUDE = [
     "director", "vice president", "vp", "avp", "gvp", "chief", "head of",
     "sales manager", "training manager", "regional manager", "area manager",
     "national sales", "strategic", "sr manager", "senior manager",
-    "manager of", "president", "principal", "supervisor",
+    "manager of", "president", "principal", "supervisor", "lead,",
     "business development representative", "bdr", "sdr",
     "sales development", "implementation",
     "engineer", "developer", "scientist", "intern", "software", "designer",
@@ -78,7 +97,7 @@ def main():
 
     hits.sort()
     with open("JOBS.md", "w") as f:
-        f.write(f"# Medical Sales Roles (IC) - Remote / Hybrid / Field - {date.today()}\n\n")
+        f.write(f"# Medical Sales & Client Roles (IC) - {date.today()}\n\n")
         f.write(f"**{len(hits)} matching roles** across {len(companies)-len(dead)} live boards\n\n")
         last = None
         for name, title, loc, url in hits:
