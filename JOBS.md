@@ -1,11 +1,10 @@
-# Medical Sales & Client Roles (IC) - 2026-08-18
+# Medical Sales & Client Roles (IC) - 2026-08-19
 
-**42 matching roles** across 20 live boards
+**41 matching roles** across 20 live boards
 
 
 ## BillionToOne
 - [Oncology Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4481121005) — Remote
-- [Oncology Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4716898005) — Sarasota / Fort Meyers, FL
 - [Oncology Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4707181005) — South Miami, FL
 - [Prenatal Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4685595005) — East Phoenix, AZ
 - [Prenatal Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4699323005) — Northeast San Antonio, TX
@@ -37,7 +36,7 @@
 - [Senior Account Executive - West](https://job-boards.greenhouse.io/garnerhealth/jobs/6132228004) — Remote
 
 ## GeneDx
-- [Client Success Manager](https://genedx.com/careers/openings?gh_jid=4707733005) — Remote
+- [Regional Account Executive - General Pediatrics (Long Island & Queens)](https://genedx.com/careers/openings?gh_jid=4725527005) — Remote
 - [Regional Account Executive - Prenatal (Mountain Desert)](https://genedx.com/careers/openings?gh_jid=4703623005) — Remote
 - [Regional Account Executive - Prenatal (Upper West)](https://genedx.com/careers/openings?gh_jid=4715191005) — Remote
 - [Regional Account Executive - Specialty (Central/Eastern PA)](https://genedx.com/careers/openings?gh_jid=4719989005) — Remote
