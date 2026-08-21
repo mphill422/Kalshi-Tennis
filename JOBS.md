@@ -1,13 +1,12 @@
-# Medical Sales & Client Roles (IC) - 2026-08-20
+# Medical Sales & Client Roles (IC) - 2026-08-21
 
-**41 matching roles** across 20 live boards
+**39 matching roles** across 20 live boards
 
 
 ## BillionToOne
 - [Oncology Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4481121005) — Remote
 - [Oncology Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4707181005) — South Miami, FL
 - [Prenatal Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4685595005) — East Phoenix, AZ
-- [Prenatal Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4699323005) — Northeast San Antonio, TX
 - [Prenatal Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4679893005) — Southeast San Antonio, TX
 - [Prenatal Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4707243005) — Springfield, MO
 - [Prenatal Senior Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4080962005) — Remote
@@ -43,7 +42,6 @@
 - [Regional Account Executive - Specialty (DC/Alexandria)](https://genedx.com/careers/openings?gh_jid=4720000005) — Remote
 - [Regional Account Executive - Specialty (North NJ/South NY)](https://genedx.com/careers/openings?gh_jid=4724109005) — Remote
 - [Regional Account Executive - Specialty (Upstate NY)](https://genedx.com/careers/openings?gh_jid=4724020005) — Remote
-- [Regional Account Executive - Specialty (Wisconsin)](https://genedx.com/careers/openings?gh_jid=4721987005) — Remote
 
 ## Maven Clinic
 - [Senior Client Success Manager](https://job-boards.greenhouse.io/mavenclinic/jobs/8657117002) — Remote
