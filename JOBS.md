@@ -1,6 +1,6 @@
-# Medical Sales & Client Roles (IC) - 2026-08-21
+# Medical Sales & Client Roles (IC) - 2026-08-22
 
-**39 matching roles** across 20 live boards
+**40 matching roles** across 20 live boards
 
 
 ## BillionToOne
@@ -48,6 +48,7 @@
 
 ## Natera
 - [Account Sales Representative](https://job-boards.greenhouse.io/natera/jobs/6010933004) — Jacksonville, FL; Tallahassee, FL
+- [Mgr, Inside Sales](https://job-boards.greenhouse.io/natera/jobs/6150022004) — US Remote
 - [National Account Manager, LGP & PE](https://job-boards.greenhouse.io/natera/jobs/6021568004) — United States
 
 ## SmarterDx
