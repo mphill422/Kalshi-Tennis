@@ -1,6 +1,6 @@
 # NEVER ADD: Guardant Health, Syneos Health
-# source (gh=greenhouse, lv=lever), board token, display name
-# --- Confirmed live boards ---
+# source (gh=greenhouse, lv=lever, ab=ashby), board token, display name
+# --- Confirmed live ---
 gh,adaptivebiotechnologies,Adaptive Biotechnologies
 gh,billiontoone,BillionToOne
 gh,freenome,Freenome
@@ -15,28 +15,33 @@ lv,transcarent,Transcarent
 lv,clarifyhealth,Clarify Health
 gh,veracyte,Veracyte
 gh,zocdoc,Zocdoc
-# --- Health-tech expansion (80-140K tier) ---
 gh,carrotfertility,Carrot Fertility
 gh,mavenclinic,Maven Clinic
-gh,sprinterhealth,Sprinter Health
 gh,parsleyhealth,Parsley Health
-gh,thirtymadison,Thirty Madison
-gh,sondermind,SonderMind
-gh,growtherapy,Grow Therapy
-gh,talkiatry,Talkiatry
-gh,solace,Solace
-gh,wheel,Wheel
-lv,axlehealth,Axle Health
-gh,brightline,Brightline
-# --- Healthcare SaaS / RCM / provider tools ---
-gh,zelis,Zelis
-gh,cohere-health,Cohere Health
-gh,turquoisehealth,Turquoise Health
-lv,cedar-cares,Cedar
-gh,akasa,AKASA
-gh,thoughtfulai,Thoughtful AI
-gh,elationhealth,Elation Health
 gh,tebra,Tebra
-lv,weaveworks,Weave
-gh,healthie,Healthie
 gh,smarterdx,SmarterDx
+gh,elationhealth,Elation Health
+# --- Ashby retries for previously dead boards ---
+ab,sprinterhealth,Sprinter Health
+ab,thirtymadison,Thirty Madison
+ab,sondermind,SonderMind
+ab,growtherapy,Grow Therapy
+ab,talkiatry,Talkiatry
+ab,solace,Solace
+ab,wheel,Wheel
+ab,axlehealth,Axle Health
+ab,brightline,Brightline
+ab,zelis,Zelis
+ab,coherehealth,Cohere Health
+ab,turquoisehealth,Turquoise Health
+ab,cedar,Cedar
+ab,akasa,AKASA
+ab,thoughtfulai,Thoughtful AI
+ab,weave,Weave
+ab,healthie,Healthie
+# --- New Ashby-native health companies ---
+ab,rula,Rula
+ab,headway,Headway
+ab,alma,Alma
+ab,assorthealth,Assort Health
+ab,openloophealth,OpenLoop Health
