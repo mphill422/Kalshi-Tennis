@@ -8,6 +8,7 @@ Two tracks, IC only:
      solutions consultant, provider relations, onboarding manager
 No management, no strategic titles, no BDR/SDR, no implementation roles.
 Remote, hybrid, field-based, and Florida-territory positions.
+Sources: Greenhouse (gh), Lever (lv), Ashby (ab) public job feeds.
 Writes JOBS.md daily via GitHub Action.
 """
 import json, urllib.request, urllib.error
@@ -39,7 +40,7 @@ TITLE_KEYWORDS = [
 TITLE_EXCLUDE = [
     "director", "vice president", "vp", "avp", "gvp", "chief", "head of",
     "sales manager", "training manager", "regional manager", "area manager",
-    "national sales", "strategic", "sr manager", "senior manager",
+    "national sales", "strategic", "sr manager", "senior manager", "mgr",
     "manager of", "president", "principal", "supervisor", "lead,",
     "business development representative", "bdr", "sdr",
     "sales development", "implementation",
@@ -76,6 +77,19 @@ def lever(token):
     for j in data:
         yield j.get("text",""), (j.get("categories") or {}).get("location",""), j.get("hostedUrl","")
 
+def ashby(token):
+    data = get_json(f"https://api.ashbyhq.com/posting-api/job-board/{token}?includeCompensation=true")
+    for j in data.get("jobs", []):
+        if not j.get("isListed", True): continue
+        loc = j.get("location","") or ""
+        secondary = j.get("secondaryLocations") or []
+        if secondary:
+            loc = loc + "; " + "; ".join(s.get("location","") for s in secondary)
+        if j.get("isRemote"): loc = (loc + "; Remote").strip("; ")
+        yield j.get("title",""), loc, j.get("jobUrl","")
+
+FETCHERS = {"gh": greenhouse, "lv": lever, "ab": ashby}
+
 # ---- main ----------------------------------------------------------------
 def main():
     companies = []
@@ -88,7 +102,7 @@ def main():
     hits, dead = [], []
     for source, token, name in companies:
         try:
-            fetch = greenhouse if source == "gh" else lever
+            fetch = FETCHERS[source]
             for title, loc, url in fetch(token):
                 if want(title, loc):
                     hits.append((name, title, loc, url))
