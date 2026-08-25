@@ -1,6 +1,6 @@
 # Medical Sales & Client Roles (IC) - 2026-08-25
 
-**52 matching roles** across 31 live boards
+**54 matching roles** across 31 live boards
 
 
 ## Assort Health
@@ -40,6 +40,7 @@
 - [Senior Account Executive - Southeast](https://job-boards.greenhouse.io/garnerhealth/jobs/6132207004) — Remote
 - [Senior Account Executive - Southwest](https://job-boards.greenhouse.io/garnerhealth/jobs/6132225004) — Remote
 - [Senior Account Executive - West](https://job-boards.greenhouse.io/garnerhealth/jobs/6132228004) — Remote
+- [Senior Revenue Operations Manager](https://job-boards.greenhouse.io/garnerhealth/jobs/6113124004) — Remote
 
 ## GeneDx
 - [Regional Account Executive - General Pediatrics (Long Island & Queens)](https://genedx.com/careers/openings?gh_jid=4725527005) — Remote
@@ -52,8 +53,10 @@
 
 ## Headway
 - [Account Executive](https://jobs.ashbyhq.com/headway/f7794bf8-8f23-41e2-b044-b38bedb0a97a) — Remote; Remote
+- [Revenue Operations Manager (Process)](https://jobs.ashbyhq.com/headway/3433bad6-2ae5-4451-9433-3a12b6f586e0) — Remote - New York; Remote
 
 ## Maven Clinic
+- [Revenue Operations Manager (Payments and Reconciliation)](https://job-boards.greenhouse.io/mavenclinic/jobs/8620831002) — New York, NY; Remote, US (Hub cities)
 - [Senior Client Success Manager](https://job-boards.greenhouse.io/mavenclinic/jobs/8657117002) — Remote
 
 ## Natera
@@ -77,7 +80,6 @@
 - [Account Manager, Health Plans](https://jobs.ashbyhq.com/sondermind/faa86497-be8a-4006-aa6c-533a8bf9d35d) — Denver, CO; Dallas; Georgia; Jacksonville; Denver; Remote
 
 ## Tebra
-- [Account Executive, Billing Company](https://job-boards.greenhouse.io/tebra/jobs/4711474005) — United States - Remote
 - [Account Executive, Customer Growth](https://job-boards.greenhouse.io/tebra/jobs/4631714005) — United States - Remote
 - [Account Executive, Growth](https://job-boards.greenhouse.io/tebra/jobs/4712282005) — United States - Remote
 - [Account Executive, Patient Experience](https://job-boards.greenhouse.io/tebra/jobs/4681866005) — United States - Remote
