@@ -36,6 +36,13 @@ TITLE_KEYWORDS = [
     "provider relations",
     "provider engagement",
     "onboarding manager",
+    # Track C - operations / network (non-sales, uses builder + healthcare fluency)
+    "revenue operations",
+    "sales operations",
+    "revops",
+    "network development",
+    "provider contracting",
+    "provider network",
 ]
 TITLE_EXCLUDE = [
     "director", "vice president", "vp", "avp", "gvp", "chief", "head of",
@@ -46,7 +53,6 @@ TITLE_EXCLUDE = [
     "sales development", "implementation",
     "engineer", "developer", "scientist", "intern", "software", "designer",
     "recruiter", "counsel", "accountant", "nurse", "administrator",
-    "analyst",
 ]
 REMOTE_HINTS = ["remote", "hybrid", "field", "united states", "us -", "- us",
                 "usa", "southeast", "florida", "orlando", "tampa", ", fl",
