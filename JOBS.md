@@ -1,14 +1,12 @@
-# Medical Sales & Client Roles (IC) - 2026-08-25
+# Medical Sales & Client Roles (IC) - 2026-08-26
 
-**54 matching roles** across 31 live boards
+**52 matching roles** across 31 live boards
 
 
 ## Assort Health
 - [Account Executive - Health Systems](https://jobs.ashbyhq.com/assorthealth/11139b8c-9570-410d-989e-e3b74c5fcac6) — Remote, USA; Remote
 - [Account Executive, Enterprise](https://jobs.ashbyhq.com/assorthealth/8f35b822-e49a-4ccb-bab4-e464e01bc1b0) — San Francisco; New York; Remote
 - [Account Executive, Mid-Market](https://jobs.ashbyhq.com/assorthealth/4dd2f24c-93b0-430c-840d-49db7865f1ce) — San Francisco; New York; Remote
-- [Manager, Customer Success Team](https://jobs.ashbyhq.com/assorthealth/7dc4c9d2-44f4-4488-abd2-f662dbc07090) — San Francisco; Remote, USA; New York; Remote
-- [Senior Customer Success Manager](https://jobs.ashbyhq.com/assorthealth/a3a6a725-939a-4bdf-b2da-de3b32f68b5c) — San Francisco; Remote, USA; New York; Remote
 
 ## BillionToOne
 - [Oncology Account Executive](https://job-boards.greenhouse.io/billiontoone/jobs/4481121005) — Remote
