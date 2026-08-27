@@ -1,47 +1,42 @@
 # NEVER ADD: Guardant Health, Syneos Health
-# source (gh=greenhouse, lv=lever, ab=ashby), board token, display name
-# --- Confirmed live ---
-gh,adaptivebiotechnologies,Adaptive Biotechnologies
+# sources: gh=greenhouse lv=lever ab=ashby sr=smartrecruiters rc=recruitee bz=breezy wk=workable
+# --- Proven live (keep) ---
 gh,billiontoone,BillionToOne
-gh,freenome,Freenome
 gh,garnerhealth,Garner Health
 gh,genedx,GeneDx
-lv,includedhealth,Included Health
-gh,komodohealth,Komodo Health
 gh,natera,Natera
-gh,omadahealth,Omada Health
-lv,aledade,Aledade
-lv,transcarent,Transcarent
-lv,clarifyhealth,Clarify Health
-gh,veracyte,Veracyte
-gh,zocdoc,Zocdoc
+gh,tebra,Tebra
+gh,elationhealth,Elation Health
 gh,carrotfertility,Carrot Fertility
 gh,mavenclinic,Maven Clinic
-gh,parsleyhealth,Parsley Health
-gh,tebra,Tebra
 gh,smarterdx,SmarterDx
-gh,elationhealth,Elation Health
-# --- Ashby retries for previously dead boards ---
-ab,sprinterhealth,Sprinter Health
-ab,thirtymadison,Thirty Madison
+gh,adaptivebiotechnologies,Adaptive Biotechnologies
+lv,includedhealth,Included Health
+lv,aledade,Aledade
+lv,transcarent,Transcarent
 ab,sondermind,SonderMind
-ab,growtherapy,Grow Therapy
-ab,talkiatry,Talkiatry
-ab,solace,Solace
-ab,wheel,Wheel
-ab,axlehealth,Axle Health
-ab,brightline,Brightline
-ab,zelis,Zelis
-ab,coherehealth,Cohere Health
-ab,turquoisehealth,Turquoise Health
-ab,cedar,Cedar
-ab,akasa,AKASA
-ab,thoughtfulai,Thoughtful AI
-ab,weave,Weave
-ab,healthie,Healthie
-# --- New Ashby-native health companies ---
-ab,rula,Rula
 ab,headway,Headway
-ab,alma,Alma
 ab,assorthealth,Assort Health
 ab,openloophealth,OpenLoop Health
+ab,rula,Rula
+ab,talkiatry,Talkiatry
+ab,wheel,Wheel
+ab,weave,Weave
+ab,cedar,Cedar
+ab,akasa,AKASA
+# --- Hidden market: community oncology / regional healthcare / labs ---
+sr,AmericanOncologyNetwork,American Oncology Network
+sr,OneOncology,OneOncology
+sr,MillenniumPhysicianGroup,Millennium Physician Group
+sr,EmpathHealth,Empath Health
+sr,ChaptersHealthSystem,Chapters Health System
+sr,SonicHealthcareUSA,Sonic Healthcare USA
+sr,AccentCare,AccentCare
+sr,VitasHealthcare,VITAS Healthcare
+wk,privia-health,Privia Health
+wk,carecentrix,CareCentrix
+rc,chartspan,ChartSpan
+rc,vytalize,Vytalize Health
+bz,curemd,CureMD
+sr,LabcorpDrugDevelopment,Labcorp
+sr,QuestDiagnostics,Quest Diagnostics
