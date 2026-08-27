@@ -1,6 +1,6 @@
 # Medical Sales & Client Roles (IC) - 2026-08-27
 
-**52 matching roles** across 31 live boards
+**51 matching roles** across 23 live boards
 
 
 ## Assort Health
@@ -82,8 +82,5 @@
 - [Account Executive, Growth](https://job-boards.greenhouse.io/tebra/jobs/4712282005) — United States - Remote
 - [Account Executive, Patient Experience](https://job-boards.greenhouse.io/tebra/jobs/4681866005) — United States - Remote
 
-## Zocdoc
-- [Senior Account Executive, Enterprise Health Systems](https://job-boards.greenhouse.io/zocdoc/jobs/8051471) — USA Remote
-
 ---
-*Boards not resolving (prune or fix token in companies.txt):* Sprinter Health (ab:sprinterhealth), Thirty Madison (ab:thirtymadison), Grow Therapy (ab:growtherapy), Axle Health (ab:axlehealth), Brightline (ab:brightline), Zelis (ab:zelis), Cohere Health (ab:coherehealth), Turquoise Health (ab:turquoisehealth), Thoughtful AI (ab:thoughtfulai), Healthie (ab:healthie), Alma (ab:alma)
+*Boards not resolving (prune or fix token in companies.txt):* American Oncology Network (sr:AmericanOncologyNetwork), OneOncology (sr:OneOncology), Millennium Physician Group (sr:MillenniumPhysicianGroup), Empath Health (sr:EmpathHealth), Chapters Health System (sr:ChaptersHealthSystem), Sonic Healthcare USA (sr:SonicHealthcareUSA), AccentCare (sr:AccentCare), VITAS Healthcare (sr:VitasHealthcare), Privia Health (wk:privia-health), CareCentrix (wk:carecentrix), ChartSpan (rc:chartspan), Vytalize Health (rc:vytalize), CureMD (bz:curemd), Labcorp (sr:LabcorpDrugDevelopment), Quest Diagnostics (sr:QuestDiagnostics)
