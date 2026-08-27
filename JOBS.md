@@ -1,4 +1,4 @@
-# Medical Sales & Client Roles (IC) - 2026-08-26
+# Medical Sales & Client Roles (IC) - 2026-08-27
 
 **52 matching roles** across 31 live boards
 
@@ -38,6 +38,7 @@
 - [Senior Account Executive - Southeast](https://job-boards.greenhouse.io/garnerhealth/jobs/6132207004) — Remote
 - [Senior Account Executive - Southwest](https://job-boards.greenhouse.io/garnerhealth/jobs/6132225004) — Remote
 - [Senior Account Executive - West](https://job-boards.greenhouse.io/garnerhealth/jobs/6132228004) — Remote
+- [Senior Revenue Operations Analyst ](https://job-boards.greenhouse.io/garnerhealth/jobs/6147843004) — Remote
 - [Senior Revenue Operations Manager](https://job-boards.greenhouse.io/garnerhealth/jobs/6113124004) — Remote
 
 ## GeneDx
@@ -47,7 +48,6 @@
 - [Regional Account Executive - Specialty (Central/Eastern PA)](https://genedx.com/careers/openings?gh_jid=4719989005) — Remote
 - [Regional Account Executive - Specialty (DC/Alexandria)](https://genedx.com/careers/openings?gh_jid=4720000005) — Remote
 - [Regional Account Executive - Specialty (North NJ/South NY)](https://genedx.com/careers/openings?gh_jid=4724109005) — Remote
-- [Regional Account Executive - Specialty (Upstate NY)](https://genedx.com/careers/openings?gh_jid=4724020005) — Remote
 
 ## Headway
 - [Account Executive](https://jobs.ashbyhq.com/headway/f7794bf8-8f23-41e2-b044-b38bedb0a97a) — Remote; Remote
