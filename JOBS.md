@@ -1,6 +1,6 @@
-# Medical Sales & Client Roles (IC) - 2026-09-02
+# Medical Sales & Client Roles (IC) - 2026-09-03
 
-**48 matching roles** across 23 live boards
+**47 matching roles** across 23 live boards
 
 
 ## Assort Health
@@ -64,9 +64,6 @@
 - [Digital Health Account Executive, Influencer & Creator Partnerships](https://jobs.ashbyhq.com/openloophealth/51ad11ec-6738-4e08-a850-9cc3bd90d4b5) — United States - Remote; Remote
 - [Enterprise Account Executive](https://jobs.ashbyhq.com/openloophealth/d88b2849-03e9-4609-8c77-9865ef736ed7) — United States - Remote; Remote
 - [Enterprise Customer Success Manager](https://jobs.ashbyhq.com/openloophealth/64818efb-3cf2-4e6e-a986-213882bc7c9a) — United States - Remote; Remote
-
-## Rula
-- [Sr. Health Systems Enterprise Account Executive (Remote)](https://jobs.ashbyhq.com/rula/1b1cade8-5d78-4290-9332-f965d6ae9905) — Remote - United States; Remote
 
 ## SmarterDx
 - [Senior Client Success Manager (SmarterNotes)](https://job-boards.greenhouse.io/smarterdx/jobs/5188125007) — Remote (United States)
