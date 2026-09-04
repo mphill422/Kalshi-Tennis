@@ -1,6 +1,6 @@
-# Medical Sales & Client Roles (IC) - 2026-09-03
+# Medical Sales & Client Roles (IC) - 2026-09-04
 
-**47 matching roles** across 23 live boards
+**49 matching roles** across 23 live boards
 
 
 ## Assort Health
@@ -45,10 +45,14 @@
 - [Regional Account Executive - Specialty (Central/Eastern PA)](https://genedx.com/careers/openings?gh_jid=4719989005) — Remote
 - [Regional Account Executive - Specialty (DC/Alexandria)](https://genedx.com/careers/openings?gh_jid=4720000005) — Remote
 - [Regional Account Executive - Specialty (North NJ/South NY)](https://genedx.com/careers/openings?gh_jid=4724109005) — Remote
+- [Regional Account Executive - Specialty (Tampa)](https://genedx.com/careers/openings?gh_jid=4731217005) — Remote
 
 ## Headway
 - [Account Executive](https://jobs.ashbyhq.com/headway/f7794bf8-8f23-41e2-b044-b38bedb0a97a) — Remote; Remote
 - [Revenue Operations Manager (Process)](https://jobs.ashbyhq.com/headway/3433bad6-2ae5-4451-9433-3a12b6f586e0) — Remote - New York; Remote
+
+## Included Health
+- [Client Success Portfolio Manager](https://jobs.lever.co/includedhealth/6a5a34b7-9297-4d3d-97e7-a8025356fa47) — Remote
 
 ## Maven Clinic
 - [Revenue Operations Manager (Payments and Reconciliation)](https://job-boards.greenhouse.io/mavenclinic/jobs/8620831002) — New York, NY; Remote, US (Hub cities)
