@@ -1,4 +1,4 @@
-# Medical Sales & Client Roles (IC) - 2026-09-04
+# Medical Sales & Client Roles (IC) - 2026-09-05
 
 **49 matching roles** across 23 live boards
 
@@ -33,7 +33,6 @@
 - [Account Executive - Southwest](https://job-boards.greenhouse.io/garnerhealth/jobs/6132277004) — Remote
 - [Account Executive - West](https://job-boards.greenhouse.io/garnerhealth/jobs/6132280004) — Remote
 - [Client Success Manager (Small-Market)](https://job-boards.greenhouse.io/garnerhealth/jobs/6091990004) — Remote
-- [Senior Account Executive - Central](https://job-boards.greenhouse.io/garnerhealth/jobs/5651451004) — Remote
 - [Senior Account Executive - Northeast](https://job-boards.greenhouse.io/garnerhealth/jobs/6132204004) — Remote
 - [Senior Account Executive - Southeast](https://job-boards.greenhouse.io/garnerhealth/jobs/6132207004) — Remote
 - [Senior Account Executive - Southwest](https://job-boards.greenhouse.io/garnerhealth/jobs/6132225004) — Remote
@@ -74,6 +73,7 @@
 
 ## SonderMind
 - [Account Manager, Health Plans](https://jobs.ashbyhq.com/sondermind/faa86497-be8a-4006-aa6c-533a8bf9d35d) — Denver, CO; Dallas; Georgia; Jacksonville; Denver; Remote
+- [Customer Success Specialist](https://jobs.ashbyhq.com/sondermind/772617f6-4879-477d-93e9-80ea0ad4f601) — Remote; Dallas; Georgia; Jacksonville; Denver; Austin; Tampa; Remote
 
 ## Tebra
 - [Account Executive, Customer Growth](https://job-boards.greenhouse.io/tebra/jobs/4631714005) — United States - Remote
